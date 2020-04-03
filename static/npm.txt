@@ -1,0 +1,34 @@
+npm
+
+定义：包管理工具
+作用：
+1.可以解决node部署问题
+2.可以从npm服务器上下载具体程序
+3.允许其他用户下载自己编写的包或者程序
+
+
+查看npm的版本
+
+npm -v
+
+初始化npm
+npm -v
+npm init   必须
+
+
+如何升级npm版本
+
+npm命令   install  安装 下载  npm包名称  -g  全局   -g=global
+npm install npm -g
+
+安装其他模块
+
+jquery
+
+npm install jquery -g
+
+npm install jquery -save  指代生产环境
+
+npm list -g 查看全局安装的包信息
+
+jquery  silly-datetime  formidable
